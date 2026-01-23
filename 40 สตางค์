@@ -1,0 +1,30 @@
+name = input("สวัสดีค่ะ ชื่ออะไรคะ ")
+print(f"สวัสดีค่ะ คุณ {name}!")
+
+while True:
+    try:
+        time_str = input("ใส่เวลา (ชั่วโมง) : ")
+        time = float(time_str)
+        break
+    except ValueError:
+        print("กรุณาใส่เวลาเป็นตัวเลขเท่านั้นค่ะ")
+
+while True:
+    light = input("ไฟเปิดอยู่หรือไม่ (on/off) : ").lower()
+    if light in ['on', 'off']:
+        break
+    else:
+        print("กรุณาพิมพ์ 'on' หรือ 'off' เท่านั้นค่ะ")
+
+if time >= 22 and light == "on":
+  print("แจ้งเตือน : ลืมปิดไฟ!")
+  print("ปิดไฟเรียบร้อยแล้วค่ะ")
+else:
+  print("ไม่มีการแจ้งเตือนเรื่องไฟค่ะ")
+
+
+สวัสดีค่ะ ชื่ออะไรคะ สตางคื
+สวัสดีค่ะ คุณ สตางคื!
+ใส่เวลา (ชั่วโมง) : 12.30
+ไฟเปิดอยู่หรือไม่ (on/off) : off
+ไม่มีการแจ้งเตือนเรื่องไฟค่ะ
