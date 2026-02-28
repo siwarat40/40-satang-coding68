@@ -19,3 +19,14 @@ Design Tool : Canva
 ![1](https://github.com/user-attachments/assets/9b041cb4-e459-4658-a8be-fee2e0122c36)
 ![2](https://github.com/user-attachments/assets/175b5b06-4788-4bd2-ad4e-2eee96f77769)
 
+5 วิธีการใช้งาน 
+ดาวน์โหลดไฟล์ File.py
+รันโปรแกรมผ่าน Terminal/CMD ด้วยคำสั่ง python main.py
+เลือกเวลาที่ต้องการปิดไฟ (นาที)
+แจ้งเตือนว่าไฟปิดแล้ว
+
+6 ผู้พัฒนา
+สิวารัตน์ พุดดี
+ชั้น ม4/4 เลขที่40
+โรงเรียนบางบ่อวิทยาคม
+อาจารย์ที่ปรึกษา ครูนฤมล สุนทอง (ครูเฟริน)
